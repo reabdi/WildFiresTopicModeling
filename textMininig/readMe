@@ -1,1 +1,48 @@
-All_tweets_part1.txt and All_tweets_part2.txt are two parts that need to be combined and saved as a CSV file so the Python code can read that. 
+- All_tweets_part1.txt and All_tweets_part2.txt are two parts that need to be combined and saved as a CSV file so the Python code can read that. 
+- Here's the list of the packages I used in this code. Some of them need to be installed on the default Python environemnt:
+# What we need for the tasks:
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import ast
+import re
+import string
+
+# To use the capability of NLTK to remove the stopwords. 
+import nltk
+nltk.download('stopwords')
+from nltk.corpus import stopwords
+stop = stopwords.words('english')
+
+# To get the sentiments, I used the textblob package:
+# pip install textblob
+from textblob import TextBlob
+
+# To make wordcloud:
+#pip install wordcloud
+from wordcloud import WordCloud
+
+# For topic modeling:
+#pip install gensim
+import gensim
+from gensim import matutils, models
+from sklearn.feature_extraction import text
+from sklearn.feature_extraction.text import CountVectorizer
+import scipy.sparse
+from nltk import word_tokenize, pos_tag
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+
+# pip install pyLDAvis
+# pip install spacy
+# The pyLDAvis gensim name changed.
+# When I use gensim_models rather than gensim the interactive viz works.
+import pyLDAvis
+import pyLDAvis.gensim_models as gensimvis
+#import pyLDAvis.gensim
+import gensim.corpora as corpora
+from pprint import pprint
+import spacy
+from gensim.utils import simple_preprocess
