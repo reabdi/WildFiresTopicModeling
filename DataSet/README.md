@@ -1,14 +1,14 @@
 # Some useful infomation
 
-Here I provided the datasets I used for this analysis. It includes the tweets I streammed using the Tweepy package on Python during the peach of the wildfire season on late summer/early fall of 2020.
+Here I provided the datasets I used for this analysis. It includes the tweets I streamed using the Tweepy package on Python during the peach of the wildfire season in late summer/early fall of 2020.
 
 # The files include:
 
 1- Public \
   39 items of CSV files for the dates (day by day) starting 09/06/2020 to 09/23/2020 \
-  1 file combined for all the dates (+185k of tweets with the desired key words) 
+  1 file combined for all the dates (+185k of tweets with the desired keywords) 
   
-2- Governemnt
+2- Government
   Locals: \
   CA: Counties of Napa, Mendocino, Santa Clara, Sonoma, and Fresno \
   OR: City of Salem, and Counties of Lane, Clackamas, Jackson, and Multnomah \
@@ -22,8 +22,8 @@ Here I provided the datasets I used for this analysis. It includes the tweets I 
   
   Federal: 6 senators, California, Colorado, and Oregon
   
-  **Infomration Provided for each tweet:**
- Data/Time \
+  **Information Provided for each tweet:**
+ Date/Time \
  UserID \
  UserName \
  Tweet's text \
