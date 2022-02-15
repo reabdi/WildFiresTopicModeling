@@ -2,8 +2,8 @@
 
 Here I provided the datasets I used for this analysis. It includes the tweets I streammed using the Tweepy package on Python during the peach of the wildfire season on Late summer/early fall of 2020.
 
-**The files include:**
-1- Public
+#The files include:
+1- Public \
   39 items of CSV files for the dates (day by day) starting 09/06/2020 to 09/23/2020 \
   1 file combined for all the dates (+185k of tweets with the desired key words) \
 2- Governemnt
