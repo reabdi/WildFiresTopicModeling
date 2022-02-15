@@ -7,6 +7,7 @@ Here I provided the datasets I used for this analysis. It includes the tweets I 
 1- Public \
   39 items of CSV files for the dates (day by day) starting 09/06/2020 to 09/23/2020 \
   1 file combined for all the dates (+185k of tweets with the desired key words) \
+  
 2- Governemnt
   Locals: \
   CA: Counties of Napa, Mendocino, Santa Clara, Sonoma, and Fresno \
